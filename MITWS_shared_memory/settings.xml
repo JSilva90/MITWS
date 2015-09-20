@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+	<setting name="number_of_processes">32</setting>
+	<setting name="dataset_name">madelon</setting>
+	<setting name="train_file">madelon_train.data,madelon_train.labels</setting>
+	<setting name="valid_file">madelon_valid.data,madelon_valid.labels</setting>
+	<setting name="test_file">madelon_test.data</setting>
+	<setting name="dataset_type">dense</setting>
+        <setting name="grid_tests">15</setting>
+        <setting name="probability_estimation_tests">15</setting>
+	<setting name="number_of_features">500</setting>
+	<setting name="percentage_filter">0.96</setting>
+	<setting name="size_to_switch_search_stage">8</setting>
+	<setting name="threshold_search">0.5</setting>
+	<setting name="cross_validation_strategy">5</setting>
+	<setting name="search_cutting_time">500</setting>
+        <setting name="svm_kernel">rbf</setting>
+	<setting name="kernel_parameters">100.0,1.0</setting>
+        <setting name="estimate_improvement_probabilities">no</setting>
+</settings>
